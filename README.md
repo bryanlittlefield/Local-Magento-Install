@@ -9,7 +9,21 @@ Local Magento Install
 3. Enter "/etc"
 4. Open up "hosts" file in your favorite editor
 5. Copy line "127.0.0.1  localhost"
-6. Change localhost to your desired domain name ex. magento.dev ( Note in order to install magento your domain name MUST have at least one ".")
+6. Change localhost to your desired domain name ex. magento.dev ( Note in order to install magento your domain name MUST have at least one ".") It should Look Like This:
+
+```bash
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1  localhost
+127.0.0.1	magento.dev
+255.255.255.255	broadcasthost
+::1             localhost 
+fe80::1%lo0	localhost
+```
 7. Save and enter admin password
 
 ####Setup Virtual Host
