@@ -1,14 +1,14 @@
 Local Magento Install on Mac
 =====================
 
-####**Step 1** Install MAMP
+#### **Step 1** Install MAMP
 ------------------------------------------
 1. [Install MAMP](http://www.mamp.info/downloads/releases/MAMP_PRO.zip)
 2. Once Installation is Completed Open Up Mamp and click Preferences
 3. Navigate to "Ports" and click "Reset MAMP ports"
 
 
-####**Step 2** Setup localhost
+#### **Step 2** Setup localhost
 ------------------------------------------
 1. Open Finder and hit " Command + Shift + G"
 2. Enter "/etc"
