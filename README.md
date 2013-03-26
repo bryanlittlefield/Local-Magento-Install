@@ -37,7 +37,7 @@ fe80::1%lo0	localhost
 1. Open Finder and hit " Command + Shift + G"
 2. Enter "/Applications/MAMP/conf/apache"
 3. Open up the "httpd.conf" file in your favorite text editor
-4. Navigate to the very bottom and add the following:
+4. Navigate to the very bottom and add the following and change "your-folder" and "yourdomain.dev" to match your setup
 
 ```bash
 NameVirtualHost *
@@ -52,3 +52,4 @@ DocumentRoot "/Applications/MAMP/htdocs/your-folder"
 ServerName yourdomain.dev
 </VirtualHost>
 ```
+
