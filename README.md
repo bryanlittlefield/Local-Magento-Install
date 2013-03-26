@@ -24,6 +24,7 @@ Local Magento Install
 ::1             localhost 
 fe80::1%lo0	localhost
 ```
+
 7. Save and enter admin password
 
 ####Setup Virtual Host
