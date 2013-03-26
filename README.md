@@ -1,4 +1,4 @@
-Local Magento Install on Mac
+Local Magento Install (Mac)
 =====================
 
 ### **Step 1** Install MAMP
