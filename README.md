@@ -1,7 +1,7 @@
 Local Magento Install
 =====================
 
-Local Dev Enviorment Magento
+####Local Dev Enviorment Magento
 ------------------------------------------
 
 1. Install MAMP
