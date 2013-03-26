@@ -17,8 +17,9 @@ Local Magento Install on Mac
 2. Enter "/etc"
 3. Open up "hosts" file in your favorite editor
 4. Copy & Paste line "127.0.0.1  localhost"
-5. Change localhost to your desired domain name ex. magento.dev *(Note in order to install magento your domain name MUST have at least one ".")* It should Look Like This:
+5. Change localhost to your desired domain name ex. magento.dev *(Note in order to install magento your domain name MUST have at least one ".")* 
 
+##### It should Look Like This:
 ```bash
 ##
 # Host Database
