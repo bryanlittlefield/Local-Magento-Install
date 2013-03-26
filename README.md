@@ -19,7 +19,7 @@ Local Magento Install on Mac
 4. Copy & Paste line "127.0.0.1  localhost"
 5. Change localhost to your desired domain name ex. magento.dev *(Note in order to install magento your domain name MUST have at least one ".")* 
 
-### It should Look Like This:
+##### It should Look Like This:
 ```bash
 ##
 # Host Database
@@ -74,7 +74,7 @@ find . -type d -exec chmod 755 {} \;
 
 ### **Step 5**  Install Magento
 ------------------------------------------
-*At this Point you have sucessfully Installed, Created a Database, Setup your localhost to point to a domain of your choice, Setup Virtual Host to tell that domian where to point, and Downloaded Magento into the directory that your Virtual Host is pointing to.*
+^*At this Point you have sucessfully Installed, Created a Database, Setup your localhost to point to a domain of your choice, Setup Virtual Host to tell that domian where to point, and Downloaded Magento into the directory that your Virtual Host is pointing to.*^
 ##### Now it is time to Install Magento, 
 If you did everything correctly you will be able to put the domain your created in the hosts file in your browsers URL bar and see the Magento Installlation Wizard! *(Note: If it is not showing up and you are sure you followed all the steps clear your browser cache and your DNS cache, refresh and you should be good to go)*
 
