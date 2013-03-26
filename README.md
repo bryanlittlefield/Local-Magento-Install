@@ -32,7 +32,7 @@ fe80::1%lo0	localhost
 
 7. Save and enter admin password
 
-####**Step 3**  Setup Virtual Host
+#### **Step 3**  Setup Virtual Host
 ------------------------------------------
 1. Open Finder and hit " Command + Shift + G"
 2. Enter "/Applications/MAMP/conf/apache"
@@ -53,3 +53,18 @@ ServerName yourdomain.dev
 </VirtualHost>
 ```
 
+#### **Step 4**  Install Magento
+------------------------------------------
+1. Navigate to your root directory setup in Virtual Host (/Applications/MAMP/htdocs/your-folder)
+2. Donwload Magento or use the following script in Terminal:
+
+```bash
+curl -O http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.tar.gz
+tar -zxvf magento-1.7.0.2.tar.gz 
+mv magento/* magento/.htaccess . 
+chmod -R o+w media var 
+chmod o+w app/etc
+rm -rf magento/ magento-1.7.0.2.tar.gz
+find . -type f -exec chmod 644 {} \;
+find . -type d -exec chmod 755 {} \;
+```
