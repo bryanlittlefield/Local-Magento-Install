@@ -1,7 +1,7 @@
 Local Magento Install on Mac
 =====================
 
-#### **Step 1** Install MAMP
+### **Step 1** Install MAMP
 ------------------------------------------
 1. [Install MAMP](http://www.mamp.info/downloads/releases/MAMP_PRO.zip)
 2. Once Installation is Completed Open Up Mamp and click Preferences
@@ -11,7 +11,7 @@ Local Magento Install on Mac
 6. Enter a Database name and click "Create"
 ##### You now have a Database setup with the Username: root and Password: root *(Note: by default MAMP will use "root" for the Username and Password you can change this is phpMyAdmin)*
 
-#### **Step 2** Setup localhost
+### **Step 2** Setup localhost
 ------------------------------------------
 1. Open Finder and hit " Command + Shift + G"
 2. Enter "/etc"
@@ -19,7 +19,7 @@ Local Magento Install on Mac
 4. Copy & Paste line "127.0.0.1  localhost"
 5. Change localhost to your desired domain name ex. magento.dev *(Note in order to install magento your domain name MUST have at least one ".")* 
 
-##### It should Look Like This:
+### It should Look Like This:
 ```bash
 ##
 # Host Database
@@ -35,7 +35,7 @@ fe80::1%lo0	localhost
 ```
 *Save and enter admin password* 
 
-#### **Step 3** Setup Virtual Host
+### **Step 3** Setup Virtual Host
 ------------------------------------------
 1. Open Finder and hit " Command + Shift + G"
 2. Enter "/Applications/MAMP/conf/apache"
@@ -56,7 +56,7 @@ ServerName yourdomain.dev
 </VirtualHost>
 ```
 
-#### **Step 4**  Download Magento
+### **Step 4**  Download Magento
 ------------------------------------------
 1. Navigate to your root directory setup in Virtual Host (/Applications/MAMP/htdocs/your-folder)
 2. Download Magento from thier website or use the following script in Terminal:
@@ -72,7 +72,7 @@ find . -type f -exec chmod 644 {} \;
 find . -type d -exec chmod 755 {} \;
 ```
 
-#### **Step 5**  Install Magento
+### **Step 5**  Install Magento
 ------------------------------------------
 *At this Point you have sucessfully Installed, Created a Database, Setup your localhost to point to a domain of your choice, Setup Virtual Host to tell that domian where to point, and Downloaded Magento into the directory that your Virtual Host is pointing to.*
 ##### Now it is time to Install Magento, 
