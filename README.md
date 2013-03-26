@@ -1,15 +1,18 @@
-Local Magento Install
+Local Magento Install on Mac
 =====================
+
+####Install MAMP
+------------------------------------------
+1. [Install MAMP](http://www.mamp.info/downloads/releases/MAMP_PRO.zip)
+
 
 ####Setup localhost
 ------------------------------------------
-
-1. Install MAMP
-2. Open Finder and hit " Command + Shift + G"
-3. Enter "/etc"
-4. Open up "hosts" file in your favorite editor
-5. Copy line "127.0.0.1  localhost"
-6. Change localhost to your desired domain name ex. magento.dev ( Note in order to install magento your domain name MUST have at least one ".") It should Look Like This:
+1. Open Finder and hit " Command + Shift + G"
+2. Enter "/etc"
+3. Open up "hosts" file in your favorite editor
+4. Copy & Paste line "127.0.0.1  localhost"
+5. Change localhost to your desired domain name ex. magento.dev ( Note in order to install magento your domain name MUST have at least one ".") It should Look Like This:
 
 ```bash
 ##
