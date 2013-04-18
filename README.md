@@ -9,7 +9,8 @@ Local Magento Install (Mac)
 4. Click "Open Start Page" & Click "phpMyAdmin"
 5. Once the page loads click "Database" at the top
 6. Enter a Database name and click "Create"
-##### You now have a Database setup with the Username: root and Password: root *(Note: by default MAMP will use "root" for the Username and Password you can change this is phpMyAdmin)*
+
+#####You now have a Database setup with the Username: root and Password: root *(Note: by default MAMP will use "root" for the Username and Password you can change this is phpMyAdmin)*
 
 ### **Step 2** Setup localhost
 ------------------------------------------
